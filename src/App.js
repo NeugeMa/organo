@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import Banner from './componentes/Banner/Banner';
 
-function App() {
+function App() { // componente de react 
   return (
-    <div className="App">
+    <div className="App"> 
+      <Banner />   
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bem vindo ao react!
         </p>
         <a
           className="App-link"
