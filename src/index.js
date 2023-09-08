@@ -8,6 +8,8 @@ root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
+// <React.StrictMode> : ajudar a prevenir erros e ter mensagens de erros mais amigáveis.
+
 );
 
 

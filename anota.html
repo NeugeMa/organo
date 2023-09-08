@@ -25,9 +25,29 @@ npm test : Inicia a fase teste
 npm run eject : Remove esta ferramenta e copia dependências de construção, arquivos de configuração e scripts para o diretório do 
 aplicativo. Se você fizer isso, você não pode voltar atrás!
 
--- OBSERVAÇÃO
+
+Exemplo de componente funcional: 
+function BoasVindas(props) {
+    return <h1>Olá, {props.nome}</h1>;
+}
+
+Mesmo código mas baseado em classes: 
+class BoasVindas extends React.Component {
+    render() {
+        return <h1>Olá, {this.props.nome}</h1>;
+    }
+}
+
+-->
+
+
+<!-- 
+
+-- OBSERVAÇÕES --
 pastas imagens são localizadas dentro de uma pasta public
 para se fazer uma classe em React é preciso implementar a palavra Name, exemplo: <header className="banner "> 
 
 
+O que é Node.js - hipsters.tech/o-que-e-node-js/
 -->
+

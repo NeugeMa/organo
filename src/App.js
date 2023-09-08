@@ -1,5 +1,5 @@
 import Banner from './componentes/Banner/Banner';
-import CampoTexto from './componentes/CampoTexto';
+// import CampoTexto from './componentes/CampoTexto';
 import Formulario from './componentes/Formulario';
 
 function App() { // componente de react 
